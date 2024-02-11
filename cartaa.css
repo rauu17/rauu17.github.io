@@ -1,0 +1,27 @@
+body{ background-color: pink;
+
+}
+
+.Titulo{
+    color: black;
+   background: pink;
+-webkit-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px);
+border: 1px solid black;
+   font-size: 65px;
+
+}
+
+p{
+    color: black;
+   background: pink;
+-webkit-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px);
+border: 1px solid rgba(255,255,255,0.075);
+   font-size: 20px;
+}
+
+
+.img{
+   border: 10px solid ;
+}

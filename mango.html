@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mango</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <link href="mango.css" rel="stylesheet">
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+@keyframes mango-rain {
+  0%   {top: -50px;}
+  100% {top: 100%;}
+}
+
+.mango {
+  position: absolute;
+  width: 50px;
+  height: 75px;
+  background-color: #FFA500;
+  border-radius: 50% / 60%;
+  animation-name: mango-rain;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.mango:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  width: 10px;
+  height: 20px;
+  background-color: #8B4513;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>LLUVIA DE MANGOS :)</h2>
+<div class="mango" style="left: 10%; animation-delay: 0s;"></div>
+<div class="mango" style="left: 20%; animation-delay: 0.5s;"></div>
+<div class="mango" style="left: 30%; animation-delay: 1s;"></div>
+<div class="mango" style="left: 40%; animation-delay: 1.5s;"></div>
+<div class="mango" style="left: 50%; animation-delay: 2s;"></div>
+<div class="mango" style="left: 60%; animation-delay: 2.5s;"></div>
+<div class="mango" style="left: 70%; animation-delay: 3s;"></div>
+<div class="mango" style="left: 80%; animation-delay: 3.5s;"></div>
+<div class="mango" style="left: 90%; animation-delay: 4s;"></div>
+
+
+
+</body>
+</html>
+
+    <div class="mango"><span></span></div>
+    <div class="hoja"><span></span></div>
+  </body>
+</html>

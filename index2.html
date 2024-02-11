@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>Flowers</title>
+</head>
+<body>
+
+
+    <div class="greetings">
+    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
+        <span>C</span>
+        <span>A</span>
+        <span>R</span>
+        <span>O</span>
+       
+    </div>
+    <div class="description">
+        <span>PIKALE AL BOTÓN</span>
+    </div>
+    <style>
+        .pochacco{
+            position: relative;
+            width: 150px; height: 150px;
+            margin: 200px auto;
+          }
+          .pochacco:hover{
+            animation: body-move 1.5s linear 0s infinite;
+          }
+          @keyframes body-move{
+            0%{top: 0;}
+            40%{top: -55px;}
+            80%{top: 0;}
+          }
+          @font-face {
+          font-family: 'UhBeeSe_hyun';
+          src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSe_hyun.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+          }
+          .text{
+            position: absolute; left: calc(50% - 150px); top: 260px;
+            width: 200px; height: 30px;
+            font-size: 30px; font-family: 'UhBeeSe_hyun';
+            font-weight: bold;
+            color: rgb(43, 43, 43);
+            background-color: #FFECF1;
+            padding: 10px 30px 20px 30px;
+            border-radius: 50% 50% 0 0;
+            border: 5px solid #E46962;
+            
+          }
+          .pochacco .heart{
+            position: absolute; left: 80px; top: -40px;
+            width: 40px; height: 40px;
+            opacity: 0;
+          }
+          .pochacco:hover .heart{
+            animation: heart-move 2s ease 0s infinite;
+          }
+          @keyframes heart-move{
+            0%{left: 80px; top: 30px; opacity: 0; transform: scale(0.5);}
+            100%{left: 80px; top: 0; opacity: 1; transform: scale(1);}
+          }
+          .pochacco .heart::before{
+            content: "";
+            position: absolute; left: 52px; top: -43px;
+            width: 30px; height: 40px;
+            background: #dfb3b8;
+            border-radius: 50% 50% 0 0;
+            transform: rotate(-55deg);
+            transform-origin: 0 0;
+      
+          }
+          .pochacco .heart::after{
+            content: "";
+            position: absolute; left: 55px; top: -60px;
+            width: 30px; height: 40px;
+            background: #dfb3b8;
+            border-radius: 50% 50% 0 0;
+            transform: rotate(55deg);
+            transform-origin: 100% 100%;
+      
+          }
+          .pochacco .ear{
+            position: absolute; left: calc(50% - 96px); top: 10px;
+            width: 30px; height: 80px;
+            background: #000;
+            border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+            transform: rotate(10deg);
+          }
+          .pochacco .ear::after{
+            content: "";
+            position: absolute; left: calc(50% + 80px); top: -90px;
+            width: 30px; height: 80px;
+            background: #000;
+            border-radius: 0% 100% 0% 100% / 0% 100% 10% 100%;
+            transform: rotate(30deg);
+            transform-origin: bottom left;
+          }
+          .pochacco:hover .ear::after{
+            animation: ear-move 1.3s linear 0s infinite;
+          }
+          @keyframes ear-move{
+            20%,40%{transform: rotate(15deg);}
+            30%,50%{transform: rotate(0deg);}
+          }
+      
+          .pochacco .hair{
+            position: absolute; left: 42px; top: -19px;
+            width: 6px; height: 20px;
+            background: #000;
+            border-radius: 90% 100% 170% 0/30% 40% 100% 0;
+            transform: rotate(-60deg);
+          }
+          .pochacco .hair::before{
+            content: "";
+            position: absolute; left: 10px; top: 10px;
+            width: 6px; height: 20px;
+            background: #000;
+            border-radius: 90% 100% 170% 0/30% 40% 100% 0;
+            transform: rotate(45deg);
+          }
+          .pochacco .hair::after{
+            content: "";
+            position: absolute; left: 15px; top: 25px;
+            width: 6px; height: 20px;
+            background: #000;
+            border-radius: 100% 90% 0% 170%/40% 30% 0% 100%;
+            transform: rotate(125deg);
+          }
+      
+          .pochacco .face{
+            position: absolute;
+            width: 100px; height: 80px;
+            background: #fff;
+            border-radius: 40% 40% 0 0;
+            border: 8px solid #000;
+            border-top: 0;
+            border-bottom: 0;
+          }
+          .pochacco .face::after{z-index: -1;
+            content: "";
+            position: absolute; left: calc(50% - 65px); top: 60.5px;
+            width: 130px; height: 60px;
+            background: #fff;
+            border-radius: 50%;
+            border: 8px solid #000;
+            box-sizing: border-box;
+          }
+          .pochacco .eyes{
+            position: absolute; left: calc(50% - 32px); top: 68px;
+            width: 10px; height: 15px;
+            background-color: #000;
+            border-radius: 50%;
+          }
+          .pochacco .eyes::after{
+            content: "";
+            position: absolute; left: 54px;
+            width: 10px; height: 15px;
+            background-color: #000;
+            border-radius: 50%;
+          }
+          .pochacco .nose{
+            position: absolute; left: calc(50% - 8px); top: 77px;
+            width: 16px; height: 12px;
+            background: #000;
+            border-radius: 50%;
+          }
+        </style>
+    <div class="button">
+        <button>
+            <a href="flower.html">yo soy el botón</a>
+        </button>
+    </div>
+</body>
+</html>

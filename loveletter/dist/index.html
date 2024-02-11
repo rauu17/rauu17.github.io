@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - a love letter for my yvo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <center>
+    <audio src="Audios/Reik.mp3" controls autoplay loop hidden>  
+      Tu navegador no soporta el elemento <code>audio</code>.
+    </audio>
+    
+    <script type="text/javascript">
+    var boton = document.getElementById("boton");
+    boton.addEventListener("click", function(){
+     if (!sound) {
+       v.pause();
+       this.innerHTML = "Play";
+       sound = false;
+      
+      } else {
+     v.play();
+       this.innerHTML = "Pause";
+       sound = true;
+    
+       
+      } 
+    });
+    </script></center> 
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Pen+Script" rel="stylesheet">
+<div class="container">
+  <label>
+    <div class="heart">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+    </div>
+    <input id="messageState" type="checkbox" style="display:none" />
+  </label>
+  <div class="message">
+    <div id="" style="overflow-y:scroll; overflow-x:hidden; height:550px;">
+      <h1><b>Ola, caro upv!</b></h1>
+      <b>
+        <p>Te escribo esta carta para decirte lo mucho que me gustas y lo feliz que me haces. Suelo pensar mucho en todo lo que hemos pasado desde el día que te conocí hasta llegar a este momento, me siento afortunado de poder escribirte esto sabiendo que es recíproco este sentimiento. </p>
+
+        <p> Desde el primer día que te vi, llamaste mi atención con tu forma tan única de ser. Eres una persona divertida, inteligente, y generosa. Siempre tienes una ocurrencia para hacerme reír, una palabra de aliento para apoyarme o un dato curioso de Acabatelo. Me encanta pasar tiempo contigo, compartir nuestros gustos, nuestros sueños y nuestros secretos. Contigo me siento cómodo, feliz y libre.</p>
+
+        <p> You are my inspiration; you make me want to be the best for you because you are the best for me. I am so delighted and glad, and I am filled with joy to be called your man — in other words, I’m satisfied. I love you, my baby. I will adore every bit of you because you deserve everything.</p>
+
+        <p> Físicamente, mi parte favorita de ti son tus ojos. Todas esas veces que te quedaste sin palabras, no fue necesario que dijeras nada porque tienes la habilidad de expresarte solo con tus ojos. Cuando me miras, siento que hablas con el alma. Me pierdo en tu mirada y me olvido de todo lo demás.
+        </p>
+
+        <p> In the quiet moments, when we’re together, and the world fades away, I feel the true depth of my love for you. It’s in these serene moments that I realize how much you mean to me. Your presence is a gentle whisper to my heart, reminding me of the beauty that exists in this world. You have become my everything—my confidant, my joy, and the love of my life. My heart is entirely yours, filled with a sweet love that grows with each passing day.</p>
+
+        <i style="color: #ff0000"><p>Te quiero mas que ayer y mucho menos que mañana &hearts;.</i>
+        <br>
+        <br>
+        your love, Simon.
+      </b>
+    </div>
+  </div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

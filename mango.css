@@ -1,0 +1,75 @@
+body {
+    margin: 150px;
+    text-align: center;
+    background-color:rgb(173, 249, 252);
+  }
+  
+  .mango,
+  .mango span {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50% / 12%;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .mango {
+    text-align: center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .hoja{
+    text-align: center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+  
+  }
+
+  .hoja span{
+    background-color: #27fc39;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform :rotate(-90deg);
+    border-radius: 240px 20px 200px 200px;
+    position: relative;
+    top: 22em;
+  }
+  
+  .mango span {
+   /* font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 9em;
+    color: #fff;*/
+    background-color: #fca727;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform :rotate(-90deg);
+
+    border-radius: 240px 20px 200px 200px;
+  }
+  
+  /*.mango span:before,
+  .mango span:after {
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 1em;
+    left: .69em;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-weight: 500;
+  }
+  
+  .mango span:before {
+    content: '[';
+    top: -8px;
+  }
+  
+  .mango span:after {
+    content: ']';
+    bottom: -8px;
+  }*/
